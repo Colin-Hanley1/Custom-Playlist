@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 
 def create_spotify_client():
-    SPOTIFY_CLIENT_ID = '343c6c4456c8495294d0a92599966706'
-    SPOTIFY_CLIENT_SECRET = '89cb9cc67d9e4005a1f34e5d5274e0dc'
+    SPOTIFY_CLIENT_ID = 'SPOTIFY_CLIENT_ID'
+    SPOTIFY_CLIENT_SECRET = 'SPOTIFY_CLIENT_ID'
     SPOTIFY_REDIRECT_URI = 'http://localhost:8080'
     
     SCOPE = "user-library-read playlist-modify-public"
